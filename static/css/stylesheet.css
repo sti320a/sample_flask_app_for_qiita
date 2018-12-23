@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.index-container {
+    padding: 0 16px;
+}
+
+.index-title {
+    letter-spacing: 2px;
+    padding: 24px 0; 
+}
+
+.index-content {
+    letter-spacing: 1px;  
+    padding: 8px 0; 
+}
+
