@@ -5,7 +5,7 @@ cursor = connection.cursor()
 
 cursor.execute("CREATE TABLE IF NOT EXISTS code (id int, contents varchar(1024))")
 
-cursor.execute("INSERT INTO code(id, contents) VALUES(?,?)", [1, "print('Hello, world')"])
+cursor.execute("INSERT INTO code(id, contents) VALUES(?,?)", [2, "print('Hello, world')"])
 connection.commit()
 
 result = cursor.execute("SELECT * FROM code")
